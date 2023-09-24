@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        mobile: "url(images/bg-header-mobile.png)",
-        desktop: "url(images/bg-header-desktop.png)",
+        mobile: "url(images/bg-header-mobile.svg)",
+        desktop: "url(images/bg-header-desktop.svg)",
       },
       borderWidth: {
         5: "5px",
