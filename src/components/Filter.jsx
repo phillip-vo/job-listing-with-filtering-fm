@@ -5,7 +5,7 @@ const Filter = () => {
   const { filterTags, setFilterTags } = useContext(AppContext);
 
   return (
-    <div className="flex gap-6 justify-between p-6 bg-white rounded-md shadow-lg mt-32 xl:mt-24 2xl:w-9/12">
+    <div className="flex gap-6 justify-between p-6 bg-white rounded-md shadow-lg mt-32 xl:mt-24 2xl:w-9/12 relative">
       <div className="flex gap-4 flex-wrap items-center font-bold text-desaturated-dark-cyan">
         {filterTags.map((item, index) => {
           return (
